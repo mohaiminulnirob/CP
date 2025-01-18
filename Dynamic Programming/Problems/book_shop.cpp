@@ -43,7 +43,7 @@ int32_t main()
    	cin>>p[i];
 
   }
-  //cout<<cal(1,0)<<'\n';// won't work because 165*1e4==1e9(too large). Must go through iterative way
+  //cout<<cal(1,0)<<'\n';// won't work because 1e5*1e4==1e9(too large). Must go through iterative way
   memset(dp, 0, sizeof(dp));
     // Bottom-up DP
     for (int i = 1; i <= n; i++) {
